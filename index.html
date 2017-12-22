@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Quiz app for new hires at Starbucks</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="top" role="banner">
+      <div class="top-lip"></div>
+      <div class="title-bar">
+        <img id="starbucks-logo" alt="Starbucks Logo" src="https://vignette.wikia.nocookie.net/logopedia/images/1/1a/Starbucks_logo_2011.png/revision/latest?cb=20120721153544">
+        <div class="title-banner">
+          <h1 class="title-text">Starbucks Barista Quiz!</h1>
+          <h3 class="title-subtext">Do you think you have what it takes to be a Starbucks barista? Think again!</h3>
+        </div>
+      </div>
+    </div>
+    
+    <div class="bottom" role="main">
+      <div class="start-bar">
+        <form class="quiz-start-form">
+          <label>Ready to begin? Press start!</label>
+          <button class="quiz-start-button">Start!</button>
+        </form>
+      </div>
+      
+      <div class="question-container">
+        <form id="quiz-questions">
+          <div id="quiz-question-container"></div>
+          
+          <div class="check-div">
+            Correct!
+          </div>
+          
+          <div class="cross-div">
+            Incorrect! The correct answer is: <span id=correct-answer-span></span>
+          </div>
+  
+          <button id="previous">Previous</button>
+          <button id="submit" type="submit">Submit</button>
+          <button id="finish">Finish</button>
+          <button id="next">Next</button>
+        </form>
+
+        <div class="question-number">
+          Question: <span id="current-question-number"></span>
+        </div> 
+        
+        <div class="correct-answers">
+          Correct: <span id="results"></span>
+        </div>
+      </div>
+      
+      <div class="final-page">
+        <h2>Congrats on completing the Starbucks Barista Quiz!</h2>
+        <h3>
+          You got: <span id="final-results"></span> Correct!
+        </h3>
+        <form class="restart-quiz-form">
+          <label for="restart-button">Want to retake the quiz? Press Restart!</label>
+          <button id="restart-button">Restart</button>
+        </form>
+      </div> 
+    </div>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

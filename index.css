@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Freight Sans';
+  background-color: #036635;
+  margin: 10px;
+}
+
+.top-lip {
+  margin-left: -25px;
+  margin-right: -25px;
+  margin-top: -20px;
+  height: 20px;
+  border-radius: 7px;
+  background-color: white;
+  border: gray solid 1px;
+  box-shadow: 0 3px 3px gray;
+}
+
+.question{
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.answers {
+  padding-left: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+  display: inline-block;
+}
+.answers label{
+  display: block;
+  margin-bottom: 5px;
+}
+
+.top {
+  margin: auto;
+  padding: 15px;
+  width: 100%;
+  text-align: left;
+  font-family: 'Freight Sans';
+  color: #fffcfc;
+  background-color: #ffffff;
+}
+
+.submit-page {
+  position:relative;
+}
+
+#starbucks-logo {
+  margin-top: -25px;
+  margin-left: 31%;
+  position:absolute;
+  opacity: 0.5;
+  position: center;
+  height: 37.5%;
+  width: 34%;
+}
+
+.title-banner {
+  position: relative;
+  padding: 20px;
+  margin-top: 40px;
+  margin-left: -20px;
+  margin-right: -20px;
+  background-color: #9F703A;
+  border-radius: 4px;
+  box-shadow: 0 5px 3px #362819;
+}
+
+.bottom {
+  background-color: #ffffff;
+  padding: 20px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  color: black;
+  display: block;
+}
+
+#check-img, #cross-img {
+  display: none;
+  width: 5%;
+  height: 5%;
+}
+
+.quiz-start-button {
+  border-radius: 4px;
+  background-color: #036635;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+  width: 60px;
+  cursor: pointer;
+  margin: 5px;
+  position:relative;
+}
+
+.quiz-start-button:hover {
+  color: black;
+  background-color: #04b15c;
+}
+
+.question-container {
+  display: none;
+}
+
+.check-div, .cross-div {
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.question-number {
+  padding-bottom: 5px;
+}
+
+.check-div {
+  color: green;
+}
+
+.cross-div {
+  color: red;
+}
+
+.question-container button {
+  margin-bottom: 10px;
+}
+
+#next, #submit, #finish, .check-div, .cross-div {
+  display: none;
+}
+
+#previous, #next, #finish, #restart-button {
+  cursor: pointer;
+}
+
+.final-page {
+  display: none;
+}
+
+
+
+
